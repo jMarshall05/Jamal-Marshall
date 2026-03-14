@@ -1,161 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jamal Marshall Lewis | Backend Developer</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jamal Marshall Lewis | Backend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-<h1>Jamal Marshall Lewis</h1>
-<p>Junior Backend Developer (.NET)</p>
+  <!-- ── HERO ── -->
+  <header class="hero">
+    <div class="hero__noise"></div>
 
-<div class="links">
-<a href="mailto:jamalmarshalllewis@gmail.com">Email</a>
-<a href="https://www.linkedin.com/in/jamal-marshall-lewis-7097692a9/">LinkedIn</a>
-<a href="https://github.com/jMarshall05">GitHub</a>
-</div>
-</header>
+    <div class="hero__tag">Available for hire · 2026</div>
 
-<section>
-<h2>About Me</h2>
+    <div class="hero__name-block">
+      <h1 class="hero__name">Jamal<br>Marshall<br>Lewis</h1>
+      <div class="hero__meta">
+        <span class="hero__role">Junior Backend Developer</span>
+        <span class="hero__stack">.NET · C# · SQL</span>
+      </div>
+    </div>
 
-<p>
-Junior Backend Developer specialized in .NET with solid foundations in
-C#, ASP.NET Core and SQL databases. I have experience developing REST APIs,
-implementing business logic and building lightweight full-stack academic
-applications.
+    <nav class="hero__nav">
+      <a href="mailto:jamalmarshalllewis@gmail.com" class="btn btn--outline">Email me</a>
+      <a href="https://www.linkedin.com/in/jamal-marshall-lewis-7097692a9/" class="btn btn--outline" target="_blank">LinkedIn</a>
+      <a href="https://github.com/jMarshall05" class="btn btn--solid" target="_blank">GitHub ↗</a>
+    </nav>
+  </header>
 
-Currently studying Systems Engineering at Universidad Fidélitas and seeking
-my first professional opportunity as a backend developer.
-</p>
+  <main>
 
-</section>
+    <!-- ── ABOUT ── -->
+    <section class="section about">
+      <span class="section__label">01 / About</span>
+      <div class="about__grid">
+        <h2 class="section__heading">Building the<br><em>backbone</em> of apps</h2>
+        <p class="about__body">
+          Junior Backend Developer specialized in .NET with solid foundations in C#,
+          ASP.NET Core, and SQL databases. I have experience developing REST APIs,
+          implementing business logic, and building lightweight full-stack academic
+          applications.<br><br>
+          Currently studying Systems Engineering at Universidad Fidélitas (Costa Rica)
+          and seeking my first professional opportunity as a backend developer.
+        </p>
+      </div>
+    </section>
 
-<section>
+    <!-- ── SKILLS ── -->
+    <section class="section skills">
+      <span class="section__label">02 / Skills</span>
+      <h2 class="section__heading">Technical<br>Expertise</h2>
 
-<h2>Technical Skills</h2>
+      <div class="skills__grid">
 
-<div class="skills">
+        <div class="skill-card">
+          <div class="skill-card__icon">⬡</div>
+          <h3 class="skill-card__title">Backend</h3>
+          <ul>
+            <li>C#</li>
+            <li>ASP.NET Core Web API</li>
+            <li>Entity Framework Core</li>
+            <li>LINQ</li>
+            <li>Layered Architecture</li>
+            <li>JWT Authentication</li>
+          </ul>
+        </div>
 
-<div>
-<h3>Backend</h3>
-<ul>
-<li>C#</li>
-<li>ASP.NET Core Web API</li>
-<li>Entity Framework Core</li>
-<li>LINQ</li>
-<li>Layered Architecture</li>
-<li>JWT Authentication</li>
-</ul>
-</div>
+        <div class="skill-card">
+          <div class="skill-card__icon">◈</div>
+          <h3 class="skill-card__title">Databases</h3>
+          <ul>
+            <li>SQL Server</li>
+            <li>NoSQL</li>
+            <li>Relational Modeling</li>
+          </ul>
+        </div>
 
-<div>
-<h3>Databases</h3>
-<ul>
-<li>SQL Server</li>
-<li>NoSql</li>
-<li>Relational Modeling</li>
-</ul>
-</div>
+        <div class="skill-card">
+          <div class="skill-card__icon">◇</div>
+          <h3 class="skill-card__title">Frontend</h3>
+          <ul>
+            <li>JavaScript (ES6+)</li>
+            <li>HTML5 &amp; CSS3</li>
+            <li>React</li>
+          </ul>
+        </div>
 
-<div>
-<h3>Frontend</h3>
-<ul>
-<li>JavaScript (ES6)</li>
-<li>HTML5</li>
-<li>CSS3</li>
-<li>React</li>
-</ul>
-</div>
+        <div class="skill-card">
+          <div class="skill-card__icon">○</div>
+          <h3 class="skill-card__title">Tools</h3>
+          <ul>
+            <li>Git / GitHub</li>
+            <li>Visual Studio</li>
+            <li>Scrum / Agile</li>
+          </ul>
+        </div>
 
-<div>
-<h3>Tools</h3>
-<ul>
-<li>Git / GitHub</li>
-<li>Visual Studio</li>
-<li>Scrum</li>
-</ul>
-</div>
+      </div>
+    </section>
 
-</div>
+    <!-- ── PROJECTS ── -->
+    <section class="section projects">
+      <span class="section__label">03 / Projects</span>
+      <h2 class="section__heading">Selected<br>Work</h2>
 
-</section>
+      <div class="projects__list">
 
-<section>
+        <article class="project-card">
+          <div class="project-card__number">01</div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Academic Management System</h3>
+            <p class="project-card__desc">
+              Academic platform for managing courses, students, and grades,
+              built with ASP.NET Core and SQL Server following a layered
+              architecture pattern.
+            </p>
+            <div class="project-card__tags">
+              <span>ASP.NET Core</span><span>SQL Server</span><span>C#</span>
+            </div>
+          </div>
+          <a href="https://github.com/jMarshall05/Campus_Virtual" class="project-card__link" target="_blank">
+            View ↗
+          </a>
+        </article>
 
-<h2>Projects</h2>
+        <article class="project-card">
+          <div class="project-card__number">02</div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Inventory Management App (WPF)</h3>
+            <p class="project-card__desc">
+              Desktop inventory system for tracking products and stock levels,
+              developed with WPF and C# using MVVM principles.
+            </p>
+            <div class="project-card__tags">
+              <span>WPF</span><span>C#</span><span>MVVM</span>
+            </div>
+          </div>
+          <a href="https://github.com/jMarshall05/Inventario-WPF" class="project-card__link" target="_blank">
+            View ↗
+          </a>
+        </article>
 
-<div class="project">
+      </div>
+    </section>
 
-<h3>Academic Management System</h3>
-<p>Academic platform built with ASP.NET and SQL Server.</p>
+    <!-- ── EDUCATION + LANGUAGES ── -->
+    <section class="section info">
+      <span class="section__label">04 / Background</span>
 
-<a href="https://github.com/jMarshall05/Campus_Virtual">
-    
-View Repository
-</a>
+      <div class="info__grid">
 
-</div>
+        <div class="info__block">
+          <h2 class="section__heading">Education</h2>
+          <div class="edu">
+            <div class="edu__degree">Systems Engineering</div>
+            <div class="edu__school">Universidad Fidélitas · Costa Rica</div>
+            <div class="edu__detail">Bachelor's complete · Licentiate in progress</div>
+            <div class="edu__year">Expected graduation: 2026</div>
+          </div>
+        </div>
 
-<div class="project">
+        <div class="info__block">
+          <h2 class="section__heading">Languages</h2>
+          <div class="lang-list">
+            <div class="lang-item">
+              <span class="lang-name">Spanish</span>
+              <span class="lang-level">Native</span>
+              <div class="lang-bar"><div class="lang-bar__fill" style="width:100%"></div></div>
+            </div>
+            <div class="lang-item">
+              <span class="lang-name">English</span>
+              <span class="lang-level">Advanced</span>
+              <div class="lang-bar"><div class="lang-bar__fill" style="width:85%"></div></div>
+            </div>
+          </div>
+        </div>
 
-<h3>Inventory Management Application (WPF)</h3>
-<p>Desktop inventory system built with WPF and C#.</p>
+      </div>
+    </section>
 
-<a href="https://github.com/jMarshall05/Inventario-WPF">
-View Repository
-</a>
+    <!-- ── OBJECTIVE ── -->
+    <section class="section objective">
+      <span class="section__label">05 / Goal</span>
+      <blockquote class="objective__quote">
+        "To begin my professional career as a Junior Backend Developer,
+        contributing my .NET and database skills while continuing to grow
+        technically through real-world projects and professional environments."
+      </blockquote>
+      <div class="objective__cta">
+        <a href="mailto:jamalmarshalllewis@gmail.com" class="btn btn--solid btn--lg">Let's work together →</a>
+      </div>
+    </section>
 
-</div>
+  </main>
 
-</section>
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <span>© 2026 Jamal Marshall Lewis</span>
+    <span class="footer__dot">·</span>
+    <span>Built with care</span>
+  </footer>
 
-<section>
-
-<h2>Education</h2>
-
-<p>
-<strong>Systems Engineering</strong>  
-Universidad Fidélitas – Costa Rica  
-Bachelor’s Degree completed | Licentiate Degree in progress  
-Expected Graduation: 2026
-</p>
-
-</section>
-
-<section>
-
-<h2>Languages</h2>
-
-<ul>
-<li>Spanish – Native</li>
-<li>English – Advanced</li>
-</ul>
-
-</section>
-
-<section>
-
-<h2>Career Objective</h2>
-
-<p>
-To begin my professional career as a Junior Backend Developer,
-contributing my .NET and database skills while continuing to grow
-technically through real-world projects and professional environments.
-</p>
-
-</section>
-
-<footer>
-
-<p>© 2026 Jamal Marshall Lewis</p>
-
-</footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
